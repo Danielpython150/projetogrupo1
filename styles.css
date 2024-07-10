@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.carro1 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url("./img/carro1.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.carro2 {
+    content: '';
+    background-image: url("./img/carro2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+}
+
+.logo {
+    width: 100px;
+    image-rendering: auto;
+    display: flex;
+    padding: 8px;
+    margin-top: 12px;
+}
+
+header {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 12px;
+}
+
+nav {
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: right;
+    order: 1;
+    background-color: none;
+    color: none;
+    padding: 0 2.4rem;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    text-size-adjust: 40px;
+    list-style-type: none;
+    padding: 10px;
+    color: rgba(5, 5, 119, 0.884);
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 16px;
+    color: rgba(5, 5, 119, 0.884);
+}
+
+.button-elegante {
+    display: inline-block;
+    justify-content: center;
+    font-family: "Georgia", serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #27ae60;
+    background: #2ecc71;
+    color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+h1 {
+    color: rgba(5, 5, 119, 0.884);
+    text-align: center;
+}
+
+p {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    color: rgba(5, 5, 119, 0.884);
+    text-align: left;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+h2 {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    color: rgba(5, 5, 119, 0.884);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+h3 {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    color: rgba(5, 5, 119, 0.884);
+    text-align: left;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.form-all {
+    background: none !important;
+    box-shadow: none;
+    }
+
+    .campo {
+        margin-bottom: 1em;
+      }
+      
+      .campo label {
+        margin-bottom: 0.2em;
+        color: #59429d;
+        display: block;
+      }
+      
+      fieldset.grupo .campo {
+        margin: 16px;
+      }
+      
+      .campo input:focus,
+      .campo select:focus,
+      .campo textarea:focus {
+        background: white;
+      }
+      
+      .campo select optgroup {
+        padding-right: 1em;
+      }
+
+      
